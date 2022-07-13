@@ -9,20 +9,22 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <header> 
-        <div class="contenedor1">
-        <a class="margenes">logo</a>
-         <nav>
-             <ul class="contenedor-lista margenes">
-                <li>Page 1</li>
-               <li>Page 2</li>
-                <li>Page 3</li> 
-                <i class="fa-solid fa-bars fa-2x"></i>
-             </ul>
-         </nav>
-         </div>
-    </header>
+
+    <header class="main-header contenedor1" >
+        <h3 class="margenes ">logo</h3>
+        <nav id="nav" class="main-nav" >
+          <div class="nav-links" >
+            <a class="link-item pages" href="#" >Page 1</a>
+            <a class="link-item pages" href="#" >Page 2</a>
+            <a class="link-item pages" href="#" >Page 3</a>
+          </div>
+        </nav>
+        <button id="button-menu" class="button-menu" >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </header>
 
         <div class="centrar">
             <img src="./src/fmin.jpg" height="90%" width="90%">
@@ -58,6 +60,6 @@
         
     </footer>
         
-
+    <script src="menu.js"></script>
 </body>
 </html>
